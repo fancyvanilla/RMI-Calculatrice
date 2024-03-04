@@ -2,6 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+RMI-Calculatrice.iml
+.gitignore
+.idea/
+
 
 ### Eclipse ###
 .apt_generated
