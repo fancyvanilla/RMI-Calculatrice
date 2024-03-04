@@ -9,12 +9,12 @@ Cette application implémente une calculatrice simple en utilisant la technologi
 - L'interface `CalculatorInterface` définit l'interface distante pour les opérations de la calculatrice.
 - Elle inclut des méthodes pour l'addition, la soustraction, la multiplication, la division et la puissance.
 
-### CalculatorServer
+### Server
 
 - La classe `CalculatorServer` configure le serveur RMI, exporte l'objet `Calculator` et le lie au registre.
 - Le serveur est prêt à accepter les demandes des clients et à exécuter les opérations de la calculatrice.
 
-### CalculatorClient
+### Client
 
 - La classe `CalculatorClient` se connecte au serveur RMI, demande à l'utilisateur les détails de l'opération et interagit avec l'objet `Calculator` pour effectuer des calculs.
 
