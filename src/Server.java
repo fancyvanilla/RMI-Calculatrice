@@ -1,12 +1,9 @@
 import RemoteService.Calculator;
 import RemoteService.CalculatorInterface;
-
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Server {
     public static void main(String[] args) {
         try {

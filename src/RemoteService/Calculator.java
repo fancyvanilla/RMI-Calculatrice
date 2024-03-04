@@ -1,9 +1,5 @@
 package RemoteService;
-
-import java.util.Optional;
-
 import static java.lang.Math.pow;
-
 public class Calculator implements CalculatorInterface {
 
     @Override
