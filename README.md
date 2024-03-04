@@ -22,10 +22,4 @@ Cette application implémente une calculatrice simple en utilisant la technologi
 
 - La classe `Calculator` implémente l'interface `CalculatorInterface` et fournit la logique réelle pour les opérations de la calculatrice.
 
-## Structure du Projet
-
-- `RemoteService` : Contient l'interface `CalculatorInterface`.
-- `Server.java` : Implémentation du serveur RMI.
-- `Client.java` : Implémentation du client RMI.
-- `Calculator.java` : Implémentation de la logique de la calculatrice.
 
